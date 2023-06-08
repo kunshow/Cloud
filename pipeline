@@ -15,7 +15,7 @@ pipeline {
         stage("test") {
 
             steps {
-                git 'the url of your repository'
+                git 'https://github.com/kunshow/Cloud.git'
             }
         }
 
@@ -27,3 +27,7 @@ pipeline {
         }
     }
 }
+
+
+
+
